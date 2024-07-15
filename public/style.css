@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.favorite-pair {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .favorite-pairs-container {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff1a1a;
+  }
+
+.converter {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.converter label, .converter select, .converter input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.converter button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.converter button:hover {
+    background-color: #2980b9;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#historical-rates-container {
+    margin-top: 20px;
+}
+
+#favorite-currency-pairs {
+    margin-top: 20px;
+}
